@@ -126,3 +126,27 @@
     border: 1px solid #0D1321;
     opacity: .8;
 }
+
+/* My inspiration part */
+.inspiration{
+    text-align: center;
+    margin-left: 148px;
+    margin-right: 152px;
+}
+
+.texto{
+    padding-left: 144px;
+    padding-right: 144px;
+}
+
+.button-jk{
+    padding: 32px;
+    background-color: transparent;
+    border-radius: 16px;
+}
+
+.youtube{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+}
