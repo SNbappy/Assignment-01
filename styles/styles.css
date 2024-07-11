@@ -4,6 +4,7 @@
     font-style: normal;
 }
 
+/* header part */
 .download {
     display: flex;
     justify-content: space-between;
@@ -16,7 +17,7 @@
     margin-top: 50px;
 }
 
-.downloadR {
+.downloadR{
     font-size: 20px;
     font-weight: 600;
     margin-right: 150px;
@@ -68,4 +69,60 @@
     margin-right: 221px;
     margin-top: 24px;
     margin-bottom: 32px;
+}
+
+/* Why Web Development part */
+
+.why-wd{
+    background-color: rgb(13, 19, 33, 0.02);
+    margin-top: 74px;
+    margin-left: 148px;
+    margin-right:152px;
+    padding-bottom: 80px;
+}
+
+.heading{
+    padding-top: 80px;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+}
+
+.normalTxt{
+    opacity: 70%;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.class1, .class2, .class3{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 0px 97px;
+}
+
+.class1, .class2, .class3{
+    margin-left: 97px;
+    margin-right: 97px;
+    margin-bottom: 32px;
+    padding: 48px;
+}
+
+
+.headline{
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.pera{
+    opacity: 70%;
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 1px solid #0D1321;
+    opacity: .8;
 }
