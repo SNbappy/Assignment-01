@@ -249,7 +249,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 48px;
+    padding: 64px 48px;
     box-sizing: border-box;
 }
 
@@ -260,7 +260,9 @@
 }
 
 .textbone {
-    padding-top: 16px;
+    /* padding-top: 16px; */
+    padding-left: 267px;
+    padding-right: 267px;
     color: white;
     opacity: 70%;
 }
@@ -268,6 +270,7 @@
 .liner {
     display: flex;
     justify-content: space-between;
+    padding: 0px 150px;
 }
 
 #inputer {
@@ -292,4 +295,10 @@
     background-color: rgba(13, 19, 33, 0.03);
     justify-content: space-around;
     margin-top: 80px;
+}
+
+.icon{
+    display: flex;
+    margin: 0px 24px;
+    /* justify-content: space-between; */
 }
