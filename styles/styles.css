@@ -150,9 +150,9 @@
     width: 1140;
 }
 
-.headmate{
+.headmate {
     font-size: 32px;
-        font-weight: 800;
+    font-weight: 800;
 }
 
 .texto {
@@ -179,16 +179,18 @@
 /* Target Part */
 
 .target {
-    width: 1140px;
+    /* width: 1140px;
     height: 299px;
-    margin: 0 auto;
+    margin: 0 auto; */
     /* margin-bottom: 49px; */
+    max-width: 1140px;
+    margin: 0 auto 49px;
+    text-align: center;
 }
 
 .langu {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 151px;
+    justify-content: space-between;
 }
 
 .headhond,
@@ -197,12 +199,12 @@
 }
 
 
-.headhond{
-font-size: 32px;
+.headhond {
+    font-size: 32px;
     font-weight: 800;
 }
 
-.textop{
+.textop {
     margin-top: 24px;
     margin-bottom: 48px;
     opacity: .7;
@@ -213,36 +215,34 @@ font-size: 32px;
 .javascript {
     padding: 40px;
     border-radius: 16px;
+    flex: 1;
 }
 
 .html {
     background-color: rgba(255, 76, 30, 0.05);
     margin-right: 24px;
-    margin-bottom: 49px;
 }
 
 .css {
     background-color: rgba(0, 76, 232, .05);
     margin-right: 24px;
-    margin-bottom: 49px;
 }
 
 .javascript {
     background-color: rgba(255, 233, 0, .05);
-    margin-bottom: 49px;
 }
 
 /* footer part */
 .footer {
-    /* position: relative;
-    border-radius: 16px;
-    width: 1140px;
-    height: 313px;
-    margin: 0 auto;
     background-image: url(../assets/handshake.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+    border-radius: 16px;
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
     margin-bottom: 80px;
     display: flex;
     flex-direction: column;
@@ -250,8 +250,7 @@ font-size: 32px;
     align-items: center;
     text-align: center;
     padding: 48px;
-    box-sizing: border-box; */
-
+    box-sizing: border-box;
 }
 
 .headbone {
@@ -261,6 +260,7 @@ font-size: 32px;
 }
 
 .textbone {
+    padding-top: 16px;
     color: white;
     opacity: 70%;
 }
@@ -275,9 +275,9 @@ font-size: 32px;
     height: 57px;
     border-radius: 8px;
     color: rgba(13, 19, 33, 0.4);
-    /* padding-left: 20px;
+    padding-left: 20px;
     margin-left: 228px;
-    margin-right: 16px; */
+    margin-right: 16px;
 }
 
 .submit {
@@ -285,4 +285,11 @@ font-size: 32px;
     margin-right: 228px;
     height: 57px;
     width: 120px;
+}
+
+.footend {
+    display: flex;
+    background-color: rgba(13, 19, 33, 0.03);
+    justify-content: space-around;
+    margin-top: 80px;
 }
