@@ -107,8 +107,16 @@
     margin-right: 97px;
     margin-bottom: 32px;
     padding: 48px;
+    border-radius: 16px;
 }
 
+.class1, .class3{
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.class2{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
 
 .headline{
     color: rgba(13, 19, 33, 0.7);
@@ -149,4 +157,22 @@
     width: 1076px;
     height: 550px;
     border-radius: 16px;
+}
+
+/* Target Part */
+.langu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.html{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.css{
+    background-color: rgba(0, 76, 232, .05);
+}
+
+.javascript{
+    background-color: rgba(255, 233, 0, .05);
 }
