@@ -58,6 +58,11 @@
     border-radius: 8px;
 }
 
+.challenge{
+    color: white;
+    text-decoration: none;
+}
+
 .pic {
     width: 240.28px;
     height: 240px;
@@ -69,6 +74,7 @@
     margin-right: 221px;
     margin-top: 24px;
     margin-bottom: 32px;
+    opacity: 0.7;
 }
 
 /* Why Web Development part */
@@ -113,7 +119,6 @@
     margin-left: 97px;
     margin-right: 97px;
     margin-bottom: 32px;
-    padding: 48px;
     border-radius: 16px;
 }
 
@@ -126,8 +131,18 @@
     background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
+.pad{
+    padding-left: 48px;
+    padding-top: 58.5px;
+    padding-bottom: 58.5px;
+    justify-content: space-around;
+    padding-right: 149px;
+}
+
 .headline {
     color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .pera {
@@ -140,7 +155,7 @@
     padding: 12px 20px;
     background-color: transparent;
     border: 1px solid #0D1321;
-    opacity: .8;
+    opacity: .7;
 }
 
 /* My inspiration part */
@@ -162,6 +177,7 @@
     margin-bottom: 48px;
     opacity: .7;
 }
+
 
 .button-jk {
     padding: 32px;
@@ -185,7 +201,6 @@
     /* margin-bottom: 49px; */
     max-width: 1140px;
     margin: 0 auto 49px;
-    text-align: center;
 }
 
 .langu {
@@ -208,6 +223,14 @@
     margin-top: 24px;
     margin-bottom: 48px;
     opacity: .7;
+}
+
+.textby{
+    opacity: .7;
+}
+
+.learn{
+    font-weight: 700;
 }
 
 .html,
@@ -257,6 +280,7 @@
     color: white;
     font-weight: 700;
     font-size: 32px;
+    
 }
 
 .textbone {
@@ -301,4 +325,12 @@
     display: flex;
     margin: 0px 24px;
     /* justify-content: space-between; */
+}
+
+.facebook{
+    margin-right: 24px;
+}
+
+.github{
+    margin-right: 24px;
 }
